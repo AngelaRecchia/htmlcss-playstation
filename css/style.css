@@ -8,13 +8,27 @@ header nav {
     background-color: lightblue;
 }
 
-#jumbo {
+.game {
     height: 650px;
-    background-image: url(../img/jumbo-bg.png);
     background-position: center top;
     color: white;
 }
+#revival {
+    background-image: url(../img/jumbo-bg.png);
+}
 
-#thumbs img {
+#takes-two {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+img {
     width: 100%;
+}
+
+.white-spaced {
+    padding: 4% 0;
+}
+
+#ps5-thumbs img {
+    width: 70%;
 }
