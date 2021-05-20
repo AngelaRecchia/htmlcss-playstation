@@ -52,3 +52,9 @@ img {
 #psnow {
     background-color: #161C3B;
 }
+
+@media screen and (min-width: 992px) {
+    #follow .col-md-2 {
+    max-width: 136px;
+    }
+}
