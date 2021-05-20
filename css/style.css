@@ -2,6 +2,10 @@
     color: white;
 }
 
+.subtitle {
+    color: grey;
+}
+
 #black-sony {
     height: 35px;
     background-color: black;
