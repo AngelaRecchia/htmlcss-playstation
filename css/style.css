@@ -14,3 +14,7 @@ header nav {
     background-position: center top;
     color: white;
 }
+
+#thumbs img {
+    width: 100%;
+}
