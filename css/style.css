@@ -6,6 +6,10 @@
     color: grey;
 }
 
+.spaced {
+    padding: 5% 0 4%;
+}
+
 #black-sony {
     height: 35px;
     background-color: black;
@@ -33,10 +37,6 @@ img {
     width: 100%;
 }
 
-.white-spaced {
-    padding: 5% 0 4%;
-}
-
 #ps5-thumbs img {
     width: 70%;
 }
@@ -51,6 +51,39 @@ img {
 
 #psnow {
     background-color: #161C3B;
+}
+
+footer {
+    background-color: #00439C;
+    font-size: 14px;
+}
+
+#logo-footer {
+    width: 150px;
+    margin-left: -33px;
+    filter: invert(99%) sepia(1%) saturate(715%) hue-rotate(167deg) brightness(115%) contrast(100%);
+}
+
+#language img {
+    width: 20px;
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer a, footer a:hover, footer a:active {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li {
+    margin: 10px 0;
+}
+
+#sie {
+    width: 150px;
 }
 
 @media screen and (min-width: 992px) {
