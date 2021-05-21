@@ -101,6 +101,16 @@ nav .button {
     transition: transform 0.2s ease-out;
 }
 
+.border_thumb {
+    padding: 2px;
+    border-radius: 22px;
+    border: 2px solid #0070D1;
+}
+
+.border_thumb:hover {
+    border: 2px solid transparent;
+}
+
 #games-thumbs img:hover {
     transform: translateY(-8px);
     box-shadow: 0 10px 10px rgb(160, 159, 159);
