@@ -199,7 +199,8 @@ nav .button {
 
 #ps5 .subtitle.big, 
 #ps5 .subtitle.medium,
-#ps4 .subtitle.big {
+#ps4 .subtitle.big,
+#sconti .subtitle.big {
     margin-top: 30px;
 }
 
