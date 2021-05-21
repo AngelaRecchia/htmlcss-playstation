@@ -3,17 +3,59 @@
     color: white;
 }
 
+.blue {
+    color: #0070D1;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.black {
+    color: black;
+}
+
+.blue_btn {
+    background-color: #0070D1;
+    color: white;
+}
+
+.blue_border {
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.blue_border:hover {
+    border: 2px solid #0070D1;
+}
+
 .button {
     padding: 6px 15px 8px;
     display: inline-block;
+    margin: 2px;
 }
 
 .subtitle {
     color: grey;
+    font-weight: 500;
 }
 
+.big {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.medium {
+    font-size: 19px;
+    margin-top: 30px;
+}
+
+.small {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
 .spaced {
-    padding: 5% 0 4%;
+    padding: 5% 0 3%;
 }
 
 section img, nav img{
@@ -23,6 +65,10 @@ section img, nav img{
 a, a:hover, a:active {
     text-decoration: none;
     color: inherit;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 /* barra navigazione */
@@ -77,7 +123,6 @@ nav .button {
 
 .game .button {
     background-color: #CD3D0F;
-    margin: 2px;
 }
 
 .game .border_button {
@@ -116,8 +161,25 @@ nav .button {
     box-shadow: 0 10px 10px rgb(160, 159, 159);
 }
 
+/* PS5 */
 #ps5-thumbs img {
     width: 70%;
+}
+
+#ps5-thumbs > * {
+    cursor: pointer;
+}
+
+#ps5 .selected {
+    border-bottom: 2px solid #0070D1;
+}
+
+#ps5-thumbs .small {
+    margin: 15px 0;
+}
+
+#ps5-thumbs >*:hover .subtitle.small{
+    color: black;
 }
 
 #new {
