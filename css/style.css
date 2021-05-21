@@ -27,6 +27,20 @@
     border: 2px solid #2D64E6;
 }
 
+.grey_btn {
+    background-color: #D9DADC;
+    color: #2D64E6;
+}
+
+.grey_border {
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.grey_border:hover {
+    border: 2px solid #D9DADC;
+}
+
 .button {
     padding: 6px 15px 8px;
     display: inline-block;
@@ -131,9 +145,6 @@ nav .button {
 
 .game .border_button {
     margin: 30px 0 60px;
-    width: max-content;
-    height: max-content;
-    border: 2px solid transparent;
 }
 
 .game .border_button:hover {
@@ -208,8 +219,13 @@ nav .button {
     margin-top: 20px;
 }
 
+/* psplus */
 #psplus {
     background-color: #BEBCBB;
+}
+
+.ps_spec_logo {
+    width: 60%;
 }
 
 #psnow {
