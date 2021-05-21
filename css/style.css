@@ -5,9 +5,24 @@
 
 .button {
     padding: 6px 15px 8px;
+    display: inline-block;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* barra navigazione */
+#black-sony {
+    height: 35px;
+    background-color: black;
+}
+
+#black-sony img {
+    height: 40%;
+}
+
 #nav_bar {
     background-color: white;
 }
@@ -41,16 +56,6 @@ nav .button {
     padding: 5% 0 4%;
 }
 
-#black-sony {
-    height: 35px;
-    background-color: black;
-}
-
-#black-sony img {
-    height: 40%;
-}
-
-
 .game {
     height: 650px;
     background-position: center top;
@@ -58,6 +63,11 @@ nav .button {
 }
 #revival {
     background-image: url(../img/jumbo-bg.png);
+}
+
+.game .button {
+    background-color: #CD3D0F;
+    margin: 30px 0 60px;
 }
 
 #takes-two {
