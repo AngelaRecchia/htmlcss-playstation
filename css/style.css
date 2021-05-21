@@ -183,8 +183,15 @@ nav .button {
     color: black;
 }
 
+/* nuove uscite */
 #new {
     padding: 3% 0 6%;
+    background-color: #1F1F1F;
+}
+
+#new img {
+    border-radius: 20px;
+    margin-bottom: 5px;
 }
 
 #psplus {
