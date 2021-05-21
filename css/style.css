@@ -55,6 +55,36 @@
     border: 2px solid white;
 }
 
+.orange_btn {
+    background-color: #CD3D0F;
+}
+
+.orange_border {
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.orange_border:hover {
+    border: 2px solid #CD3D0F;
+}
+
+.dark_btn {
+    background-color: #363636;
+    color: white;
+}
+
+.dark_border {
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.dark_btn:hover {
+    background-color: #555555;
+}
+.dark_border:hover {
+    border: 2px solid #555555;
+}
+
 .button {
     padding: 6px 15px 8px;
     display: inline-block;
@@ -128,13 +158,47 @@ nav li {
     margin-right: 15px;
 }
 
-nav .button {
-    background-color: #363636;
-    color: white;
-}
-
 #search {
     width: 25px;
+}
+
+#search:hover {
+    filter: invert(27%) sepia(88%) saturate(1944%) hue-rotate(192deg) brightness(92%) contrast(101%);
+}
+
+.drops {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    height: 150px;
+    background-color: #fff;
+}
+
+.drops img {
+    height: 100%;
+    width: auto;
+}
+
+.nav-item:hover .drops {
+    display: block;
+}
+
+.nav-item:hover .hide-hov {
+    display: none;
+}
+
+.show-hov {
+    display: none;
+}
+
+.nav-item:hover .show-hov {
+    display: inline-block;
+}
+
+#nav_bar .nav-item:hover a{
+    color: #0070d1;
 }
 
 /* games */
@@ -153,16 +217,8 @@ nav .button {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-.game .button {
-    background-color: #CD3D0F;
-}
-
-.game .border_button {
+.game .orange_border {
     margin: 30px 0 60px;
-}
-
-.game .border_button:hover {
-    border: 2px solid #CD3D0F;
 }
 
 /* games thumbnails */
@@ -243,10 +299,17 @@ nav .button {
     width: 60%;
 }
 
+/* psnow */
 #psnow {
     background-color: #161C3B;
 }
 
+/* social media */
+#follow img {
+    cursor: pointer;
+}
+
+/* footer */
 footer {
     background-color: #00439C;
     font-size: 14px;
