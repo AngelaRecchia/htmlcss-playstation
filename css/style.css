@@ -41,6 +41,20 @@
     border: 2px solid #D9DADC;
 }
 
+.white_btn {
+    background-color: white;
+    color: black;
+}
+
+.white_border {
+    border: 2px solid transparent;
+    display: inline-block;
+}
+
+.white_border:hover {
+    border: 2px solid white;
+}
+
 .button {
     padding: 6px 15px 8px;
     display: inline-block;
