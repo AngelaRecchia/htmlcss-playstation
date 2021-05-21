@@ -110,6 +110,7 @@ nav .button {
 .game {
     height: 650px;
     background-position: center top;
+    background-size: cover;
     color: white;
 }
 
