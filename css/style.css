@@ -86,7 +86,7 @@
 }
 
 .button {
-    padding: 6px 15px 8px;
+    padding: 4px 15px 6px;
     display: inline-block;
     margin: 2px;
 }
@@ -170,19 +170,28 @@ nav li {
     display: none;
     width: 100%;
     position: absolute;
-    top: 60px;
+    top: 58px;
     left: 0;
-    height: 150px;
     background-color: #fff;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.3);
 }
 
-.drops img {
-    height: 100%;
+.drop-item img {
+    height: 90%;
     width: auto;
 }
 
-.nav-item:hover .drops {
-    display: block;
+.drop-item {
+    width: 150px;
+    height: 140px;
+    border-radius: 5px;
+    margin: 0 2px;
+    padding: 20px 30px 30px;
+    display: inline-block;
+}
+
+.drop-item:hover {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
 }
 
 .nav-item:hover .hide-hov {
@@ -198,6 +207,28 @@ nav li {
 }
 
 #nav_bar .nav-item:hover a{
+    color: #0070d1;
+}
+
+.drop-bottom {
+    border-top: 1px solid lightgrey;
+}
+
+.drop-bottom ul {
+    list-style-type: circle;
+}
+
+.drop-bottom li {
+    display: inline;
+}
+
+.drop-bottom li:hover {
+    color: #0070d1;
+}
+
+.drop-bottom li::before {
+    content: '\25CF';
+    margin-right: 10px;
     color: #0070d1;
 }
 
@@ -347,9 +378,13 @@ footer ul li {
     #follow .col-md-2 {
     max-width: 136px;
     }
+
+    .nav-item:hover .drops {
+        display: block;
+    }
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 1110px){
 
     nav li .chevron {
         display: none;
