@@ -407,3 +407,7 @@ footer ul li {
     }
 
 }
+
+.dropdown-menu {
+    width: 100%;
+}
